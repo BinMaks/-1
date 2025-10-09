@@ -1,0 +1,6 @@
+print("5 10")
+print("7 см")
+print("\n100 t")
+print("1949 v")
+print("\n25 x")
+print("x y")
