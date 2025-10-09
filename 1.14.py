@@ -1,4 +1,5 @@
 num1=input("Введите первое число:")
 num2=input("введите второе число:")
 num3=input("введите третье число:")
-print(f"{num1}  {num2}  {num3}")
+num4=input("введите четвертое число:")
+print(f"{num1} {num2} {num3} {num4}")
