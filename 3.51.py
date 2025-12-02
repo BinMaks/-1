@@ -1,0 +1,6 @@
+a = int(input("Введите a: "))
+b = int(input("Введите b: "))
+x = int(not (a % b))
+y = int(not (b % a))
+result = min(1, x + y)
+print(result)
