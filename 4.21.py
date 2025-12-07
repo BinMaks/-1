@@ -1,0 +1,8 @@
+x1, y1, w1, h1 = map(float, input("x1, y1, ширина, высота 1-го прямоугольника: "))
+x2, y2, w2, h2 = map(float, input("x2, y2, ширина, высота 2-го прямоугольника: "))
+min_x = min(x1, x2)
+min_y = min(y1, y2)
+max_x = max(x1 + w1, x2 + w2)
+max_y = max(y1 + h1, y2 + h2)
+print(f"Левый нижний угол: ({min_x}, {min_y}")
+print(f"Правый верхний угол: ({max_x}, {max_y}")
