@@ -1,0 +1,6 @@
+areas = list(map(float, input("Площади (га): ").split()))
+yields = list(map(float, input("Урожайности (ц/га): ").split()))
+total_harvest = sum(areas[i] * yields[i] for i in range(len(areas)))
+avg_yield = sum(yields) / len(yields)
+print("Количество пшеницы:", total_harvest, "ц")
+print("Средняя урожайность:", avg_yield, "ц/га")

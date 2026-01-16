@@ -1,0 +1,12 @@
+length = list(map(float, input("Длины 15 параллелепипедов: ").split()))
+width = list(map(float, input("Ширина 15 параллелепипедов: ").split()))
+height = list(map(float, input("Высота 15 параллелепипедов: ").split()))
+volumes = [length[i] * width[i] * height[i] for i in range(15)]
+max_volume = max(volumes)
+min_volume = min(volumes)
+max_idx = volumes.index(max_volume)
+min_idx = volumes.index(min_volume)
+print("Максимальный объем: ", max_volume)
+print("Минимальный объем: ", min_volume)
+print("Номер фигуры с макс. объемом: ", max_idx + 1)
+print("Номер фигуры с мин. объемом: ", min_idx + 1)

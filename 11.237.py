@@ -1,0 +1,5 @@
+population = list(map(float, input("Численность 28 государств (млн): ").split()))
+area = list(map(float, input("Площадь 28 государств (тыс. кв. км): ").split()))
+A = float(input("Порог площади A (тыс. кв. км): "))
+total_population = sum(population[i] for i in range(28) if area[i] <= A)
+print("Общая численность: ", total_population, "млн")
