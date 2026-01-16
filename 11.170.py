@@ -1,0 +1,8 @@
+arr = list(map(int, input("Введите элементы: ").split()))
+max_val = max(arr)
+max_idx = arr.index(max_val)
+num1 = int(input("Первое число: "))
+num2 = int(input("Второе число: "))
+arr.insert(max_idx + 1, num1)
+arr.insert(max_idx, num2)
+print(arr)

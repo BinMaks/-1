@@ -1,0 +1,7 @@
+arr = list(map(int, input("Введите элементы массива: ").split()))
+max_val = max(arr)
+min_val = min(arr)
+count_max = arr.count(max_val)
+count_min = arr.count(min_val)
+print(f"Количество максимальных элементов: {count_max}")
+print(f"Количество минимальных элементов: {count_min}")
