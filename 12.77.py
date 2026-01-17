@@ -1,0 +1,5 @@
+sentence = input("Введите предложение (слова разделены двумя пробелами): ")
+words = sentence.split('  ')
+print("Первое слово:", words[0])
+print("Второе слово:", words[1])
+print("Третье слово:", words[2])

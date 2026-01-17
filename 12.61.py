@@ -1,0 +1,5 @@
+text = input("Введите текст: ")
+plus_count = text.count('+')
+star_count = text.count('*')
+print("Символов '+':", plus_count)
+print("Символов '*':", star_count)
