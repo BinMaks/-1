@@ -1,0 +1,5 @@
+text = input("Введите строку: ")
+old_substring = input("Какую подстроку заменить? ")
+new_substring = input("На какую подстроку заменить? ")
+result = text.replace(old_substring, new_substring)
+print(result)
